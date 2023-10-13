@@ -8,7 +8,7 @@
 import Fluent
 import Vapor
 
-final class Account: Model, Content {
+final class User: Model, Content {
     static let schema = "users" //테이블 또는 컬렉션의 이름
     
     @ID(key: .id) //모델 인스턴스의 고유 식별자
